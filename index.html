@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gorgeous Skin Hue Changer</title>
+    <!-- Link Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Link your stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>glaze simulator</h1>
+    <p class="subtitle">change the color for the sigma master lost</p>
+
+    <!-- Added a label and wrapper for better styling -->
+    <div class="color-picker-wrapper">
+        <label for="colorPicker">Choose Base Hue:</label>
+        <input type="color" id="colorPicker" value="#ff00ff">
+    </div>
+
+    <canvas id="skinCanvas"></canvas>
+
+    <button id="downloadBtn">Download Skin</button>
+</div>
+
+<script src="script.js"></script> <!-- Assuming your JS logic is here -->
+</body>
+</html>
